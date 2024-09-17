@@ -93,7 +93,7 @@ public class CommentaireControllerTest {
     void whenCreating_shouldReturnIsCreated_andShouldReturnURL() throws Exception {
         Long id = 78L;
         Commentaire toCreate = new Commentaire(id, mock(User.class), mock(Issue.class), "To create");
-
+        when(commentaireService.create(any())).thenReturn(toCreate);
         mockMvc.perform(post("/commentaires")
                 .contentType(MediaType.APPLICATION_JSON)
                 .content(new ObjectMapper().writeValueAsString(toCreate))
