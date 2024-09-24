@@ -1,12 +1,19 @@
 package geiffel.da4.issuetracker.user;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
 import java.util.Objects;
 
+@Entity
 public class User {
 
+    @Id
     private Long id;
     private String nom;
     private Fonction fonction;
+
+    public User() {}
 
     public User(Long id, String nom, Fonction fonction) {
         this.id = id;
