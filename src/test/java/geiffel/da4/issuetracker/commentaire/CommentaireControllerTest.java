@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import geiffel.da4.issuetracker.exceptions.ExceptionHandlingAdvice;
 import geiffel.da4.issuetracker.exceptions.ResourceAlreadyExistsException;
 import geiffel.da4.issuetracker.exceptions.ResourceNotFoundException;
+import geiffel.da4.issuetracker.issue.Issue;
 import geiffel.da4.issuetracker.user.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;

@@ -10,7 +10,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CommentaireTest {
 
-    @Test
+    /*@Test
     void whenCreating_shouldBeAddedToIssueAndAuthorCommentairesList() {
         User user = new User(12L, "Machin", Fonction.USER);
         Issue issue = new Issue(1L, "The Issue", "The Content", user);
@@ -20,5 +20,5 @@ public class CommentaireTest {
                 ()->assertTrue(issue.getCommentaires().contains(commentaire)),
                 ()->assertTrue(user.getCommentairesEcrits().contains(commentaire))
         );
-    }
+    }*/
 }

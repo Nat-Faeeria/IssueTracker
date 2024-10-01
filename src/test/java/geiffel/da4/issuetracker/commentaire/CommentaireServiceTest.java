@@ -2,6 +2,7 @@ package geiffel.da4.issuetracker.commentaire;
 
 
 
+import geiffel.da4.issuetracker.issue.Issue;
 import geiffel.da4.issuetracker.user.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Order;
